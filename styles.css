@@ -1,0 +1,59 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #040D12;
+}
+
+h1 {
+  margin: 30px;
+  margin-bottom: 15px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #467192;
+  font-size: 5rem;
+  color: #ACE2E1;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #ACE2E1;
+  font-family: 'Mochiy Pop One', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+.click{
+  padding-top: 2rem;
+}
+.btn{
+  font-size: 1rem;
+  font-family: Mochiy Pop One;
+  background-color: #ACE2E1;
+  color: #040D12;
+  padding: 0.9rem;
+  border-radius: 10px;
+  border-width: 0rem 0.3rem 0.3rem 0rem;
+  border-color: #467192;
+  transition-duration: 0.1s;
+}
+.btn:hover{
+  background-color: #F5F7F8;
+}
+
+footer {
+  margin-top: 5%;
+  color: #ACE2E1;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
