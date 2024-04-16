@@ -1,4 +1,5 @@
 //create random number variable and change image using setAttribute for img1
+function refreshing(){
 var randomNumber1= Math.floor(Math.random()*6)+1;
 var randomSrc1 = ("./images/dice"+randomNumber1+".png");
 document.querySelector(".img1").setAttribute("src",randomSrc1);
@@ -26,7 +27,7 @@ else{
 
 
 
-
+}
 
 
 
